@@ -2,13 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 function Section() {
-  return;
-  <Container>
-    <ItemText>
-      <h1>Model S</h1>
-      <p>Order Online for Touchless Delivery</p>
-    </ItemText>
-  </Container>;
+  return (
+    <Container>
+      <ItemText>
+        <h1>Model S</h1>
+        <p>Order Online for Touchless Delivery</p>
+      </ItemText>
+    </Container>
+  );
 }
 
 export default Section;
