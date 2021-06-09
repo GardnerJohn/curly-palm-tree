@@ -20,6 +20,7 @@ function Header() {
           <MenuIcon />
         </MenuIconContainer>
       </RightMenu>
+      <BurgerNav></BurgerNav>
     </Container>
   );
 }
@@ -63,3 +64,5 @@ const MenuIconContainer = styled.div`
   align-items: center;
   cursor: pointer;
 `;
+
+const BurgerNav = styled.div``;
